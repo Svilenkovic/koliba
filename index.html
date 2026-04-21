@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="🔥 SAJT NA PRODAJU - 150€ godišnje! Profesionalni šablon web sajta za vikendicu, smeštaj ili turizam. SEO optimizovan, responsive dizajn. Kontakt: svilenkovic.com">
+    <meta name="keywords" content="vikendica sajt šablon, smeštaj web sajt, turizam sajt, šablon za vikendicu, web sajt na prodaju, template turizam">
+    <meta name="author" content="Svilenkovic.com">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="🔥 SAJT NA PRODAJU - Vikendica/Smeštaj Šablon - 150€/godišnje">
+    <meta property="og:description" content="Profesionalni šablon web sajta za vikendicu, smeštaj ili turizam. SEO optimizovan, responsive. Kontakt: svilenkovic.com">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://koliba.svilenkovic.com">
+    <meta property="og:locale" content="sr_RS">
+    <meta property="og:image" content="https://koliba.svilenkovic.com/images/og-image.jpg">
+    
+    <title>🔥 SAJT NA PRODAJU - Vikendica/Smeštaj Šablon | 150€/godišnje | svilenkovic.com</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏡</text></svg>">
+    
+    <style>
+        /* Floating badge pulse animation */
+        @keyframes badge-pulse {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(255, 107, 0, 0.7); }
+            50% { box-shadow: 0 0 0 15px rgba(255, 107, 0, 0); }
+        }
+        .badge-pulse {
+            animation: badge-pulse 2s infinite;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <a href="#hero" class="logo">
+                <span class="logo-icon">🏡</span>
+                <span class="logo-text">Vikendica <span class="highlight">Šablon</span></span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero">Početna</a></li>
+                <li><a href="#o-nama">O Nama</a></li>
+                <li><a href="#smestaj">Smeštaj</a></li>
+                <li><a href="#sadrzaji">Sadržaji</a></li>
+                <li><a href="#apiterapija">Specijalno</a></li>
+                <li><a href="#galerija">Galerija</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+            <a href="https://svilenkovic.com/webshop" target="_blank" rel="noopener" class="nav-cta">
+                <span>Naruči Šablon</span>
+            </a>
+            <button class="hamburger" id="hamburger" aria-label="Meni">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-bg-pattern"></div>
+        <div class="floating-elements">
+            <div class="floating-leaf leaf-1">🍃</div>
+            <div class="floating-leaf leaf-2">🍂</div>
+            <div class="floating-leaf leaf-3">🌿</div>
+            <div class="floating-bee bee-1">🏡</div>
+            <div class="floating-bee bee-2">✨</div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-badge">🔥 SAJT NA PRODAJU - 150€/godišnje</span>
+                <h1>Vikendica Šablon<br><span class="highlight">Demo Web Sajt</span></h1>
+                <p class="hero-description">
+                    Ovo je demo šablon za vikendice, smeštaj, turizam i slično. 
+                    Možete ga naručiti za samo 150€ godišnje sa svim funkcijama, hostingom i podrškom!
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://svilenkovic.com/webshop" target="_blank" rel="noopener" class="btn btn-primary">
+                        <span>Naruči Šablon</span>
+                        <span class="btn-arrow">→</span>
+                    </a>
+                    <a href="https://svilenkovic.com/contact" target="_blank" rel="noopener" class="btn btn-secondary">
+                        <span>Kontaktiraj Me</span>
+                    </a>
+                </div>
+                <div class="hero-features">
+                    <div class="hero-feature">
+                        <span class="feature-icon">🏡</span>
+                        <span class="feature-text">Idealno za Smeštaj</span>
+                    </div>
+                    <div class="hero-feature">
+                        <span class="feature-icon">📱</span>
+                        <span class="feature-text">Responsive Dizajn</span>
+                    </div>
+                    <div class="hero-feature">
+                        <span class="feature-icon">🔍</span>
+                        <span class="feature-text">SEO Optimizovan</span>
+                    </div>
+                    <div class="hero-feature">
+                        <span class="feature-icon">⚡</span>
+                        <span class="feature-text">Brza Isporuka</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Otkrijte Više</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- O Nama Section -->
+    <section class="o-nama" id="o-nama">
+        <div class="container">
+            <div class="o-nama-wrapper">
+                <div class="o-nama-content">
+                    <span class="section-badge">📋 O Šablonu</span>
+                    <h2>Profesionalni <span class="highlight">Šablon za Smeštaj</span></h2>
+                    <p class="o-nama-intro">
+                        Ovaj šablon je idealan za vikendice, apartmane, hotele, seoske kuće, 
+                        i sve vrste turističkog smeštaja.
+                    </p>
+                    <p class="o-nama-text">
+                        Sa modernim dizajnom i svim potrebnim funkcijama, vaš sajt će privući 
+                        više gostiju i povećati rezervacije. Uključen je hosting, podrška, 
+                        i sve što vam je potrebno za uspešan online nastup.
+                    </p>
+                    <div class="o-nama-stats">
+                        <div class="stat">
+                            <span class="stat-icon">💰</span>
+                            <span class="stat-number">150€</span>
+                            <span class="stat-label">Godišnje</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-icon">⏰</span>
+                            <span class="stat-number">24h</span>
+                            <span class="stat-label">Isporuka</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-icon">🛠️</span>
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">Podrška</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="o-nama-visual">
+                    <div class="visual-frame">
+                        <div class="frame-decoration top-left"></div>
+                        <div class="frame-decoration top-right"></div>
+                        <div class="frame-decoration bottom-left"></div>
+                        <div class="frame-decoration bottom-right"></div>
+                        <img src="https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?w=600" alt="Vikendica" class="visual-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Smestaj Section -->
+    <section class="smestaj" id="smestaj">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">🏠 Primer Smeštaja</span>
+                <h2>Demo Prikaz <span class="highlight">Smeštaja</span></h2>
+                <p class="section-description">
+                    Ovako može izgledati prikaz vašeg smeštaja - potpuno prilagodljiv
+                </p>
+            </div>
+            <div class="smestaj-grid">
+                <div class="smestaj-card">
+                    <div class="smestaj-card-image">
+                        <img src="https://images.unsplash.com/photo-1587061949409-02df41d5e562?w=500" alt="Spavaća soba">
+                        <span class="smestaj-badge">Demo</span>
+                    </div>
+                    <div class="smestaj-card-content">
+                        <h3>Spavaća Soba</h3>
+                        <p>Primer prikaza prostorije sa opisom i karakteristikama</p>
+                        <ul class="smestaj-features">
+                            <li>✓ Bračni krevet</li>
+                            <li>✓ Klima uređaj</li>
+                            <li>✓ Smart TV</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="smestaj-card">
+                    <div class="smestaj-card-image">
+                        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=500" alt="Kupatilo">
+                        <span class="smestaj-badge">Demo</span>
+                    </div>
+                    <div class="smestaj-card-content">
+                        <h3>Kupatilo</h3>
+                        <p>Prikaz kupatila sa svim pogodnostima</p>
+                        <ul class="smestaj-features">
+                            <li>✓ Tuš kabina</li>
+                            <li>✓ Peškiri</li>
+                            <li>✓ Fen za kosu</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="smestaj-card">
+                    <div class="smestaj-card-image">
+                        <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=500" alt="Kuhinja">
+                        <span class="smestaj-badge">Demo</span>
+                    </div>
+                    <div class="smestaj-card-content">
+                        <h3>Kuhinja</h3>
+                        <p>Potpuno opremljena kuhinja za goste</p>
+                        <ul class="smestaj-features">
+                            <li>✓ Frižider</li>
+                            <li>✓ Šporet</li>
+                            <li>✓ Posuđe</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sadrzaji Section -->
+    <section class="sadrzaji" id="sadrzaji">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">✨ Karakteristike</span>
+                <h2>Šta je <span class="highlight">Uključeno</span></h2>
+            </div>
+            <div class="sadrzaji-grid">
+                <div class="sadrzaj-card">
+                    <div class="sadrzaj-icon">🎨</div>
+                    <h3>Moderan Dizajn</h3>
+                    <p>Profesionalni i atraktivan izgled koji privlači posetioce</p>
+                </div>
+                <div class="sadrzaj-card">
+                    <div class="sadrzaj-icon">📱</div>
+                    <h3>Responsive</h3>
+                    <p>Savršeno prilagođen za sve uređaje - telefone, tablete i računare</p>
+                </div>
+                <div class="sadrzaj-card">
+                    <div class="sadrzaj-icon">🔍</div>
+                    <h3>SEO Optimizacija</h3>
+                    <p>Optimizovan za pretraživače kako bi vas gosti lakše pronašli</p>
+                </div>
+                <div class="sadrzaj-card">
+                    <div class="sadrzaj-icon">⚡</div>
+                    <h3>Brz Sajt</h3>
+                    <p>Optimizovane performanse za brzo učitavanje stranica</p>
+                </div>
+                <div class="sadrzaj-card">
+                    <div class="sadrzaj-icon">📧</div>
+                    <h3>Kontakt Forma</h3>
+                    <p>Integrisana forma za primanje upita i rezervacija</p>
+                </div>
+                <div class="sadrzaj-card">
+                    <div class="sadrzaj-icon">🛡️</div>
+                    <h3>SSL Sertifikat</h3>
+                    <p>Siguran sajt sa HTTPS protokolom uključenim</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" id="apiterapija">
+        <div class="container">
+            <div class="cta-content">
+                <span class="section-badge">🔥 Akcija</span>
+                <h2>Naručite <span class="highlight">Šablon Danas</span></h2>
+                <p>
+                    Za samo 150€ godišnje dobijate profesionalni sajt, hosting, 
+                    podršku i sve potrebno za uspešan online nastup!
+                </p>
+                <div class="cta-price">
+                    <span class="price-old">300€</span>
+                    <span class="price-new">150€</span>
+                    <span class="price-period">/ godišnje</span>
+                </div>
+                <div class="cta-buttons">
+                    <a href="https://svilenkovic.com/webshop" target="_blank" rel="noopener" class="btn btn-primary">
+                        <i class="fas fa-shopping-cart"></i> Naruči Sada
+                    </a>
+                    <a href="tel:+381612248989" class="btn btn-secondary">
+                        <i class="fas fa-phone"></i> +381 61 224 8989
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galerija Section -->
+    <section class="galerija" id="galerija">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">📸 Demo Galerija</span>
+                <h2>Primer <span class="highlight">Galerije</span></h2>
+            </div>
+            <div class="galerija-grid">
+                <div class="galerija-item">
+                    <img src="https://images.unsplash.com/photo-1449158743715-0a90ebb6d2d8?w=400" alt="Vikendica 1">
+                </div>
+                <div class="galerija-item">
+                    <img src="https://images.unsplash.com/photo-1510798831971-661eb04b3739?w=400" alt="Vikendica 2">
+                </div>
+                <div class="galerija-item">
+                    <img src="https://images.unsplash.com/photo-1587061949409-02df41d5e562?w=400" alt="Vikendica 3">
+                </div>
+                <div class="galerija-item">
+                    <img src="https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=400" alt="Vikendica 4">
+                </div>
+                <div class="galerija-item">
+                    <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=400" alt="Vikendica 5">
+                </div>
+                <div class="galerija-item">
+                    <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400" alt="Vikendica 6">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontakt Section -->
+    <section class="kontakt" id="kontakt">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">📞 Kontakt za Narudžbinu</span>
+                <h2>Kontaktirajte <span class="highlight">Nas</span></h2>
+            </div>
+            <div class="kontakt-wrapper">
+                <div class="kontakt-info">
+                    <div class="kontakt-info-card">
+                        <div class="kontakt-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>Web Sajt</h3>
+                        <a href="https://svilenkovic.com" target="_blank" rel="noopener">svilenkovic.com</a>
+                    </div>
+                    <div class="kontakt-info-card">
+                        <div class="kontakt-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Telefon</h3>
+                        <a href="tel:+381612248989">+381 61 224 8989</a>
+                    </div>
+                    <div class="kontakt-info-card">
+                        <div class="kontakt-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <a href="mailto:dimitrije@svilenkovic.com">dimitrije@svilenkovic.com</a>
+                    </div>
+                    <div class="kontakt-info-card">
+                        <div class="kontakt-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <h3>Webshop</h3>
+                        <a href="https://svilenkovic.com/webshop" target="_blank" rel="noopener">Naruči Online</a>
+                    </div>
+                </div>
+                <div class="kontakt-form-wrapper">
+                    <div class="kontakt-form-header">
+                        <h3>Naručite Šablon</h3>
+                        <p>Posetite naš webshop ili nas kontaktirajte direktno</p>
+                    </div>
+                    <div class="kontakt-cta">
+                        <a href="https://svilenkovic.com/webshop" target="_blank" rel="noopener" class="btn btn-primary btn-large">
+                            <i class="fas fa-shopping-cart"></i> Naruči na Webshopu
+                        </a>
+                        <p class="call-text">ili pozovite:</p>
+                        <a href="tel:+381612248989" class="btn btn-secondary btn-large">
+                            <i class="fas fa-phone"></i> +381 61 224 8989
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SAJT NA PRODAJU CTA Section -->
+    <section class="py-16 bg-gradient-to-br from-red-50 via-orange-50 to-yellow-50 border-y-4 border-orange-400">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-2xl shadow-2xl overflow-hidden">
+                <div class="bg-gradient-to-r from-red-600 via-orange-500 to-yellow-500 text-white py-6 px-8">
+                    <h2 class="text-3xl md:text-4xl font-bold text-center">
+                        🔥 Ovaj Sajt Je Na Prodaju! 🔥
+                    </h2>
+                </div>
+                <div class="p-8 md:p-12">
+                    <div class="grid md:grid-cols-2 gap-8 items-center">
+                        <div>
+                            <h3 class="text-2xl font-bold text-gray-800 mb-4">Zašto Kupiti Ovaj Sajt?</h3>
+                            <ul class="space-y-3 text-gray-700">
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-green-600 mt-1 mr-3"></i>
+                                    <span><strong>Idealno za Smeštaj</strong> - Vikendice, apartmani, hoteli, seoske kuće</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-green-600 mt-1 mr-3"></i>
+                                    <span><strong>SEO Optimizovan</strong> - Vrhunsko rangiranje u Google pretrazi</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-green-600 mt-1 mr-3"></i>
+                                    <span><strong>Responsive Dizajn</strong> - Savršeno radi na svim uređajima</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-green-600 mt-1 mr-3"></i>
+                                    <span><strong>Spremno za upotrebu</strong> - Samo promeni kontakt info i kreni!</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-green-600 mt-1 mr-3"></i>
+                                    <span><strong>Profesionalan dizajn</strong> - Moderno i privlačno</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-green-600 mt-1 mr-3"></i>
+                                    <span><strong>Kontakt forma</strong> - Automatsko slanje emailova</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-gradient-to-br from-red-100 to-orange-100 rounded-xl p-8 mb-6">
+                                <div class="text-sm font-semibold text-gray-700 uppercase mb-2">Godišnja Cena</div>
+                                <div class="text-7xl font-black text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-orange-500 mb-2">
+                                    150€
+                                </div>
+                                <div class="text-sm text-gray-600 font-medium">
+                                    + hosting (oko 50€/god)
+                                </div>
+                                <div class="mt-4 text-xs text-gray-500">
+                                    * Jednokratna uplata za godinu dana korišćenja sajta
+                                </div>
+                            </div>
+                            <a href="https://svilenkovic.com/contact.php" target="_blank" rel="noopener" class="inline-block bg-gradient-to-r from-red-600 to-orange-500 text-white px-8 py-4 rounded-xl text-xl font-bold hover:from-red-700 hover:to-orange-600 transition-all transform hover:scale-105 shadow-xl">
+                                <i class="fas fa-shopping-cart mr-2"></i>
+                                Kupi Sajt Odmah
+                            </a>
+                            <div class="mt-6 space-y-2 text-sm text-gray-600">
+                                <p><i class="fas fa-globe mr-2 text-orange-500"></i> <a href="https://svilenkovic.com" target="_blank" rel="noopener" class="font-bold hover:text-orange-500">svilenkovic.com</a></p>
+                                <p><i class="fas fa-envelope mr-2 text-orange-500"></i> <a href="mailto:dimitrije@svilenkovic.com" class="font-bold hover:text-orange-500">dimitrije@svilenkovic.com</a></p>
+                                <p><i class="fas fa-phone mr-2 text-orange-500"></i> <a href="tel:+381612248989" class="font-bold hover:text-orange-500">+381 61 224 8989</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-8 p-6 bg-yellow-50 border-l-4 border-yellow-400 rounded-lg">
+                        <p class="text-sm text-gray-700">
+                            <i class="fas fa-info-circle text-yellow-600 mr-2"></i>
+                            <strong>Napomena:</strong> Nakon kupovine dobijate kompletne fajlove sajta, pristup hostingu, i mogućnost besplatne tehničke podrške prvih 30 dana. 
+                            Mogu vam pomoći sa podešavanjem i prilagodbom sajta za vaše potrebe.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🏡</span>
+                        <span class="logo-text">Vikendica <span class="highlight">Šablon</span></span>
+                    </div>
+                    <p class="footer-desc">
+                        Ovo je demo šablon za vikendice, smeštaj i turizam. 
+                        Možete ga naručiti za samo 150€ godišnje!
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://svilenkovic.com" target="_blank" rel="noopener" aria-label="Website">
+                            <i class="fas fa-globe"></i>
+                        </a>
+                        <a href="mailto:dimitrije@svilenkovic.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="tel:+381612248989" aria-label="Phone">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Stranice Šablona</h4>
+                    <ul class="footer-links">
+                        <li><a href="#hero">Početna</a></li>
+                        <li><a href="#o-nama">O Nama</a></li>
+                        <li><a href="#smestaj">Smeštaj</a></li>
+                        <li><a href="#sadrzaji">Sadržaji</a></li>
+                        <li><a href="#galerija">Galerija</a></li>
+                        <li><a href="#kontakt">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Kontakt za Narudžbinu</h4>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-globe"></i>
+                            <a href="https://svilenkovic.com" target="_blank" rel="noopener">svilenkovic.com</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+381612248989">+381 61 224 8989</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:dimitrije@svilenkovic.com">dimitrije@svilenkovic.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Prijatelji web stranice -->
+            
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Vikendica Šablon. Dizajn i Razvoj: <a href="https://svilenkovic.com" target="_blank" rel="noopener">Svilenkovic.com</a></p>
+                <div class="footer-legal">
+                    <a href="https://svilenkovic.com/webshop" target="_blank" rel="noopener">Naruči Šablon</a>
+                    <a href="https://svilenkovic.com/contact" target="_blank" rel="noopener">Kontakt</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Sale Badge -->
+    <div class="fixed bottom-6 right-6 z-50 animate-bounce">
+        <a href="viber://chat?number=+381612248989" target="_blank" rel="noopener" class="block">
+            <div class="bg-gradient-to-br from-red-600 to-orange-600 text-white rounded-full p-6 shadow-2xl hover:scale-110 transition-transform cursor-pointer border-4 border-white badge-pulse">
+                <div class="text-center">
+                    <div class="text-sm font-bold uppercase mb-1">Sajt</div>
+                    <div class="text-sm font-bold uppercase mb-2">Na Prodaju</div>
+                    <div class="text-3xl font-black">150€</div>
+                    <div class="text-xs font-semibold">godišnje</div>
+                    <div class="mt-2 text-xs">
+                        <i class="fas fa-shopping-cart"></i> Kupi
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop" aria-label="Nazad na vrh">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

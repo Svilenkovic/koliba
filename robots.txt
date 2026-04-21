@@ -1,0 +1,11 @@
+# Koliba Pčelica 1 - Vikendica u Prirodi
+# https://kolibapcelica1.rs
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://kolibapcelica1.rs/sitemap.xml
+
+# Crawl delay (optional, for politeness)
+Crawl-delay: 10
