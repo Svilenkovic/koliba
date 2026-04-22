@@ -1,32 +1,36 @@
 # Koliba
 
-Produkcioni sajt za turisticki objekat / smestaj sa fokusom na prezentaciju ponude, galerije i kontakt informacija.
+Production website for a tourism/accommodation property, focused on service presentation, gallery, and contact details.
 
-## Tehnologije
+## Tech Stack
 
 - HTML/CSS/JavaScript
-- PHP fallback fajlovi (`default.php`, `maintenance.php`)
-- SEO fajlovi (`robots.txt`, `sitemap.xml`)
+- PHP fallback files (`default.php`, `maintenance.php`)
+- SEO files (`robots.txt`, `sitemap.xml`)
 
-## Struktura projekta
+## Project Structure
 
-- `index.html`: glavna javna stranica
-- `styles.css`, `script.js`: front-end stil i interakcije
-- `maintenance.html`, `maintenance.php`: rezim odrzavanja
-- `404.html`, `500.html`: error stranice
+- `index.html`: public homepage
+- `styles.css`, `script.js`: styling and interactions
+- `maintenance.html`, `maintenance.php`: maintenance mode pages
+- `404.html`, `500.html`: error pages
 
-## Lokalni pregled
+## Local Preview
 
 ```bash
 php -S 127.0.0.1:8080
 ```
 
-## Live Preview
+## Live Site
 
 - https://kolibapcelica1.rs
 
-## Deploy smernice
+## Deployment Notes
 
-- Deploy je direktno kopiranje fajlova na server root.
-- Posle izmena obavezno proveri internu link strukturu i anchor sekcije.
-- Drzi `sitemap.xml` azurnim kada se menjaju URL-ovi ili sekcije.
+- Deployment is direct file sync to the web root.
+- Keep internal navigation links and anchors consistent.
+- Update sitemap whenever URL structure changes.
+
+## Language Note
+
+The website content is intentionally in Serbian for the target audience.
