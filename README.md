@@ -1,50 +1,32 @@
 # Koliba
 
-Public source snapshot for koliba.svilenkovic.com website.
-
-## Sadrzaj
-
-- Pregled
-- Tehnologije
-- Pokretanje lokalno
-- Struktura projekta
-- Live Preview
-- Odrzavanje
+Produkcioni sajt za turisticki objekat / smestaj sa fokusom na prezentaciju ponude, galerije i kontakt informacija.
 
 ## Tehnologije
 
-- Nije automatski detektovano
-
-## Pokretanje lokalno
-
-```bash
-# Nema standardnog package manager fajla u korenu repoa
-# Proveri postojece skripte i konfiguracione fajlove
-```
+- HTML/CSS/JavaScript
+- PHP fallback fajlovi (`default.php`, `maintenance.php`)
+- SEO fajlovi (`robots.txt`, `sitemap.xml`)
 
 ## Struktura projekta
 
-- `404.html`
-- `500.html`
-- `default.php`
-- `.htaccess`
-- `index.html`
-- `index.html.bak_friends`
-- `maintenance.html`
-- `maintenance.php`
-- `README.md`
-- `robots.txt`
-- `script.js`
-- `sitemap.xml`
-- `styles.css`
+- `index.html`: glavna javna stranica
+- `styles.css`, `script.js`: front-end stil i interakcije
+- `maintenance.html`, `maintenance.php`: rezim odrzavanja
+- `404.html`, `500.html`: error stranice
+
+## Lokalni pregled
+
+```bash
+php -S 127.0.0.1:8080
+```
 
 ## Live Preview
-- https://assets.hostinger.com
-- https://autoset.rs
-- https://batastankovic.com
 
-## Odrzavanje
+- https://kolibapcelica1.rs
 
-- Odrzavaj README azurnim kada menjas arhitekturu, build ili deploy proces.
-- Za produkcione promene vodi racuna o konfiguraciji okruzenja i bezbednosti tajnih podataka.
-- Pre merge-a proveri lint/test/build korake koji postoje u ovom projektu.
+## Deploy smernice
+
+- Deploy je direktno kopiranje fajlova na server root.
+- Posle izmena obavezno proveri internu link strukturu i anchor sekcije.
+- Drzi `sitemap.xml` azurnim kada se menjaju URL-ovi ili sekcije.
